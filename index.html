@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MinePro | Mining Solutions</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      color: #17233d;
+      background: #f5f8ff;
+    }
+
+    header {
+      min-height: 100vh;
+      padding: 24px 9%;
+      color: white;
+      background: linear-gradient(120deg, #10265d, #176bc1, #16b9b2);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 24px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+      max-width: 1200px;
+      margin: 110px auto 0;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 58px;
+      line-height: 1.1;
+    }
+
+    .hero p {
+      max-width: 550px;
+      color: #e2efff;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 14px 24px;
+      border-radius: 8px;
+      color: #10265d;
+      background: #ffc143;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .stats-card {
+      padding: 32px;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 18px;
+      background: rgba(10, 30, 79, 0.4);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+    }
+
+    .stats-card h2 {
+      margin-bottom: 24px;
+      font-size: 28px;
+    }
+
+    .stat {
+      display: flex;
+      justify-content: space-between;
+      padding: 17px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .stat strong {
+      color: #7effe9;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 80px 9%;
+    }
+
+    .heading {
+      margin-bottom: 36px;
+      text-align: center;
+    }
+
+    .heading h2 {
+      margin-bottom: 12px;
+      font-size: 38px;
+    }
+
+    .heading p {
+      color: #62718d;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .feature {
+      padding: 28px;
+      border-radius: 15px;
+      background: white;
+      box-shadow: 0 8px 24px rgba(25, 59, 130, 0.1);
+    }
+
+    .feature-icon {
+      display: grid;
+      place-items: center;
+      width: 55px;
+      height: 55px;
+      margin-bottom: 18px;
+      border-radius: 12px;
+      color: white;
+      background: #2765ff;
+      font-size: 26px;
+    }
+
+    .feature:nth-child(2) .feature-icon {
+      background: #10bfa6;
+    }
+
+    .feature:nth-child(3) .feature-icon {
+      background: #f5a623;
+    }
+
+    .feature h3 {
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      color: #68758c;
+      line-height: 1.6;
+    }
+
+    footer {
+      padding: 25px;
+      color: white;
+      background: #10265d;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        display: none;
+      }
+
+      .hero,
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        margin-top: 70px;
+      }
+
+      h1 {
+        font-size: 43px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">⛏ MINEPRO</div>
+      <div>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div>
+        <h1>Mining for a Stronger Tomorrow.</h1>
+        <p>
+          MinePro delivers responsible, efficient, and technology-driven mining
+          solutions that power industries and communities around the world.
+        </p>
+        <a class="button" href="#services">Explore Operations</a>
+      </div>
+
+      <div class="stats-card">
+        <h2>Live Mine Operations</h2>
+        <div class="stat">
+          <span>Production Target</span>
+          <strong>78% Complete</strong>
+        </div>
+        <div class="stat">
+          <span>Safety Record</span>
+          <strong>312 Days Safe</strong>
+        </div>
+        <div class="stat">
+          <span>Renewable Energy</span>
+          <strong>64%</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="services">
+    <div class="heading">
+      <h2>Mining with Purpose</h2>
+      <p>Smart operations, responsible practices, and sustainable growth.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">⚙</div>
+        <h3>Smart Operations</h3>
+        <p>We use modern systems and real-time data to make mining safer and more efficient.</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">♻</div>
+        <h3>Sustainable Mining</h3>
+        <p>Our operations focus on reducing waste, conserving water, and protecting the environment.</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">★</div>
+        <h3>Community Impact</h3>
+        <p>We support local communities through jobs, training, and long-term partnerships.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>© 2026 MinePro. Mining responsibly for the future.</p>
+  </footer>
+</body>
+</html>
